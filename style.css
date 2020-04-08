@@ -1,0 +1,80 @@
+header {
+  margin-right: 50px;
+
+}
+
+
+a {
+	background: #444444;
+	width: 100%;
+	display: flex;
+	align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+	margin: 0px;
+	padding: 15px;
+	font-size: 32px;
+	color: white;
+}
+
+div {
+  display: flex;
+  height: 100%;
+}
+
+main {
+	flex-grow: 3;
+	margin-left: 135px;
+	margin-right: 235px;
+    margin-top: 30px;
+	margin-bottom: 10px;
+	padding: 30px;
+}
+
+side-right {
+	display: flex;
+	background-color: none;
+	margin-top: 10px;
+    flex-grow: 1;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+side-left {
+	display: flex;
+	background-color: none;
+    margin-top: 10px;
+	flex-grow: 1;
+	align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.inv {
+    background: #96B9D9;
+	width: 140px;
+    height: 25px;
+    margin: 5px;
+	position: fixed;
+	bottom: 10px;
+	left: 10px;
+	font-size: 12px;
+	display: flex;
+	align-items: center;
+    justify-content: flex-start;
+	padding: 5px;
+}
+
+.cookies {
+    background: #96B9D9;
+	width: 240px;
+    height: 300px;
+    margin: 5px;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	display: flex;
+	align-items: flex-start;
+    justify-content: flex-end;
+	padding: 5px;
+	font-size: 12px;
+}
